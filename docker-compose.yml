@@ -1,0 +1,11 @@
+services:
+  test:
+    build: .
+    ports:
+      - "5432:5432"
+      - "8089:8089"
+      - "5557:5557"
+      - "5558:5558"
+    volumes:
+      - ..:/home
+    stdin_open: true

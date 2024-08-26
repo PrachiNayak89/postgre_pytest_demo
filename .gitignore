@@ -1,0 +1,31 @@
+# Ignore everything in this directory
+
+*.py[cod]
+.cache
+chrome.log
+debug.log
+todo.md
+*.text
+.ssh/*
+.bash_history
+.git-credentials
+*report.json
+**/report.html
+**/assets
+.gitconfig
+.ipython/*
+*.dmp
+.idea
+regression.bat
+fails.txt
+errors.txt
+*.swap
+*.viminfo
+ENV
+*.png
+**/allure*
+.ropeproject
+solutionSDK/
+venv/
+# Except this file
+!.gitignore
